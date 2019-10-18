@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Beast",
+      "image": "/images/beast.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 2,
+      "name": "Captain America",
+      "image": "/images/captain-america.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 3,
+      "name": "Ghost Rider",
+      "image": "/images/ghostrider.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 4,
+      "name": "Hulk",
+      "image": "/images/hulk.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 5,
+      "name": "Iron Man",
+      "image": "/images/ironman.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 6,
+      "name": "Loki",
+      "image": "/images/loki.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 7,
+      "name": "Magneto",
+      "image": "/images/magneto.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 8,
+      "name": "Moon Knight",
+      "image": "/images/moonknight.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 9,
+      "name": "Red Skull",
+      "image": "/images/red-skull.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 10,
+      "name": "Spiderman",
+      "image": "/images/spiderman.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 11,
+      "name": "Thor",
+      "image": "/images/thor.jpg",
+      "isClicked": false
+    },
+    {
+      "id": 12,
+      "name": "Wolverine",
+      "image": "/images/wolverine.jpg",
+      "isClicked": false
+    }
+  ]
+  
