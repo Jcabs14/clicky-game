@@ -30,12 +30,6 @@ class App extends Component {
     return characters;
   };
 
-  //reset function for when you click incorrectly
-  reset = characters => {
-    const reset = characters.map(character => ({ ...character, isClicked: false }));
-    return this.randomize(reset);
-  };
-
   //when guessing correctly
   handleCorrectGuess = newCharacter => {
     const { hiScore, score } = this.state;
@@ -52,7 +46,7 @@ class App extends Component {
   //function for when you click the same image twice
   handleIncorrectGuess = characters => {
     this.setState({
-      characters: this.reset(characters),
+      characters: this.randomize(this.state.characters.map( character => { return { ...character, isClicked : false } })),
       score: 0
     });
     alert("You clicked the same image! Game over try again!");
@@ -63,8 +57,8 @@ class App extends Component {
     const newCharacter = this.state.characters.map(character => {
       const newCharacter = { ...character };
       if (newCharacter.id === id) {
-        if (!newCharacter.clicked) {
-          newCharacter.clicked = true;
+        if (!newCharacter.isClicked) {
+          newCharacter.isClicked = true;
           guessedCorrectly = true;
         }
       }
