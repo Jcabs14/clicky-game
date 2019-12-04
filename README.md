@@ -22,7 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![marvel-memory](public/images/logo.png)
+![marvel-memory](public/images/front.png)
 Marvel clicky-game is a memory type game where a user will have to remember the last character they clicked.
 
 [Link to deployed project](https://jcabs14.github.io/clicky-game/)
@@ -30,7 +30,7 @@ Marvel clicky-game is a memory type game where a user will have to remember the 
 ### Built With
 * [Javascript](https://www.javascript.com/)
 * [React](https://reactjs.org/)
-* [Node](https://nodejs.org/en/)
+* [Node.js](https://nodejs.org/en/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -51,7 +51,10 @@ git clone https://github.com/Jcabs14/clicky-game
 ```sh
 npm install
 ```
-
+3. Starting project locally
+```sh
+npm start (once you are in the projects folder)
+```
 <!-- USAGE EXAMPLES -->
 ## Usage
 
